@@ -71,6 +71,8 @@ canJump: true
 
 };
 
+// recall this syntax and how we can make an instance of an existing class
+
 const bird = Object.create(animal);
 
 bird.canFly = true;
